@@ -1,9 +1,9 @@
-import Server from "@/server";
+import Server from '@/server'
 
-const app = new Server();
+const server = new Server()
 
 try {
-  app.start();
+  server.start()
 } catch (error) {
-  console.error(error);
+  console.error(error)
 }
